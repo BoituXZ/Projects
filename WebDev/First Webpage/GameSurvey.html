@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boitumelo's Survey</title>
+<link rel="stylesheet" href="GameSurvey.css"
+</head>
+
+<body>
+  
+  <div class="title">
+    <h1 id="title"> Boitumelo's Survey</h1>
+    <p id="description">Let us know about your favourite games</p>
+  </div>
+
+  <div class="survey-container">
+    <form id = "survey-form">
+
+      <div class="form">
+        <label for="name" id="name-label">Full Name</label><br>
+        <input type='text' id="name" name="name" placeholder="Enter your Full Name" required><br><br>
+      </div>
+      
+      <div class="form">
+        <label for="email" id="email-label">Email </label><br>
+        <input type="email" id="email" name = "email" placeholder="Enter your email address" required><br><br>
+      </div>
+
+      <div class = "form1">
+        <label for="number" id="number-label">Hours Played</label><br><br>
+        <input type='number' id="number" placeholder="How many hours do you play per day" min=0 max=24 required><br><br>
+      </div>
+
+      <div class="form">
+        <label for="dropdown">Which of these games have you played?</label><br><br>
+        <select id="dropdown" name="dropdown" multiple>
+          <option value="Grand Theft Auto">Grand Theft Auto</option>
+          <option value="Need For Speed">Need For Speed</option>
+    
+          <option value="Mortal Kombat">Mortal Kombat</option>
+          <option value="Fifa">Fifa</option>
+          <option value"None of the above">None of the above</option>
+        </select>
+      </div>
+
+      <div class="form">
+        <p>Would you say you consider yourself a gamer?</p>
+        <label>
+        <input name= "gamer" type="radio" value="Yes" checked class="name">
+    Yes
+        </label><br>
+        <label>
+        <input name= "gamer"type="radio" value="No" class="name">
+      No
+        </input>
+        </label><br>
+
+        <label>
+        <input name= "gamer"type="radio" value='Sort of' class="name">
+      Sort of
+        </label>
+      </div>
+
+      <div class="form">
+        <p>Which are your favourite game genres?</p>
+        <label><input name="genre" value="RPG" type="checkbox" class="input-checkbox">RPG</label><br>
+
+        <label><input name="genre" value="AAA" type="checkbox" class="input-checkbox">AAA</label><br>
+
+        <label><input name="genre" value="FPS" type="checkbox" class="input-checkbox">FPS</label><br>
+
+        <label><input name="genre" value="Strategy" type="checkbox" class="input-checkbox">Strategy</label><br>
+  <div>
+
+      <div class="form">
+        <p> Why do you game?</p>
+        <textarea id="why" class="input-textarea" name="why" placeholder="What keeps you going?"></textarea>
+  </div>
+
+      <div class="form">
+        <button type="submit" id="submit" class="submit-button">
+              Blast off!
+        </button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

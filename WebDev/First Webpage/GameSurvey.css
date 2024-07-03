@@ -1,0 +1,33 @@
+body {
+    background-image: url(GameBackground.jpg);
+    background-size:    cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    color: #37c0c0;
+}
+.survey-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+
+    padding-top: 12px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+
+    text-align: left;
+
+
+    color: white;
+    background-color: #37c0c079;
+    border-radius: 0.9%;
+}
+
+.form {
+    border-radius: 10%;
+}
